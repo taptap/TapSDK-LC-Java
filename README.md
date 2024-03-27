@@ -1,10 +1,9 @@
-# LeanCloud Java/Android Unified SDK
+# TapSDK-LC-Java SDK
 
-LeanCloud Unified SDK 包含 LeanCloud 平台全部功能的客户端接口，适用于 Java 和 Android 两个平台。
+TapSDK-LC-Java SDK 包含原有 LeanCloud 平台全部功能的客户端接口，适用于 Java 和 Android 两个平台，其中 storage 和 realtime 模块按照 TapSDK 风格进行了包名重命名。
 
-SDK 中所有存储 API 接口与 LeanCloud 云端交互严格遵循 LeanCloud REST API 规范，并且全部采用了 Reactive 函数式编程风格来设计（同时也兼容老的 Callback 方式）。
 
-要想了解更多使用信息，请查看 [Wiki](https://github.com/leancloud/java-unified-sdk/wiki).
+要想了解更多使用信息，请查看 [Wiki](https://github.com/taptap/TapSDK-LC-Java/wiki).
 
 ## Development Progress
 
