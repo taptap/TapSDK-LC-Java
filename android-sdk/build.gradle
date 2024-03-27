@@ -4,9 +4,11 @@ buildscript {
     
     repositories {
         google()
+        mavenCentral()
         jcenter()
         maven {url 'http://developer.huawei.com/repo/'}
         maven { url 'https://developer.hihonor.com/repo/' }
+        maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'}
         mavenLocal()
     }
     dependencies {
@@ -24,15 +26,17 @@ allprojects {
 
     repositories {
         google()
+        mavenCentral()
         jcenter()
         maven {url 'http://developer.huawei.com/repo/'}
         maven { url 'https://developer.hihonor.com/repo/' }
+        maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'}
         mavenLocal()
     }
 }
 
 ext {
-    sdkVersion = "8.2.23"
+    sdkVersion = "8.2.24"
     supportLibVersion = "26.1.0"
     converterVersion = "2.1.0"
     rxandroidVersion = "2.1.1"

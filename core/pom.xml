@@ -2,11 +2,11 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.taptap</groupId>
-  <artifactId>storage-core</artifactId>
+  <artifactId>lc-storage-core</artifactId>
   <packaging>jar</packaging>
-  <version>8.2.24-SNAPSHOT</version>
-  <name>storage core library</name>
-  <url>http://maven.apache.org</url>
+  <version>8.2.24</version>
+  <name>lc storage core library</name>
+  <url>https://developer.taptap.cn/docs/sdk</url>
 
   <licenses>
     <license>
@@ -17,29 +17,26 @@
 
   <developers>
     <developer>
+      <id>tds engineer</id>
       <name>TDS Engineer</name>
       <email>tds-engineering@xd.com</email>
-      <organization>TapTap</organization>
-      <organizationUrl>https://www.taptap.cn</organizationUrl>
     </developer>
   </developers>
 
 
   <scm>
     <connection>scm:git@github.com:taptap/TapSDK-LC-Java.git</connection>
-    <developerConnection>scm:git@github.com:taptap/TapSDK-LC-Java.git</developerConnection>
-    <url>https://github.com/taptap/TapSDK-LC-Java/tree/master</url>
-    <tag>HEAD</tag>
+    <url>https://github.com/taptap/TapSDK-LC-Java</url>
   </scm>
 
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
 
@@ -48,6 +45,7 @@
     <okhttp.version>4.7.2</okhttp.version>
     <retrofit.version>2.9.0</retrofit.version>
     <rxjava2.version>2.2.19</rxjava2.version>
+    <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -161,7 +159,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
       </plugin>

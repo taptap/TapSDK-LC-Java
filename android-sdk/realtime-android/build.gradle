@@ -79,8 +79,8 @@ dependencies {
 //    implementation('io.reactivex.rxjava2:rxandroid:2.1.1')
 
 
-    implementation("cn.leancloud:realtime-core:${rootProject.ext.sdkVersion}")
-    implementation("cn.leancloud:storage-core:${rootProject.ext.sdkVersion}")
+    implementation("com.taptap:lc-realtime-core:${rootProject.ext.sdkVersion}")
+    implementation("com.taptap:lc-storage-core:${rootProject.ext.sdkVersion}")
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0'

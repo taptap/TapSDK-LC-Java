@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.tapsdk.storage">
+          package="com.tapsdk.lc.storage">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
