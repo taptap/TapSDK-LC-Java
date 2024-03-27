@@ -1,14 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <parent>
-    <groupId>cn.leancloud</groupId>
-    <artifactId>leancloud-sdk</artifactId>
-    <version>8.2.24-SNAPSHOT</version>
-  </parent>
+
   <modelVersion>4.0.0</modelVersion>
-  <groupId>cn.leancloud</groupId>
+  <groupId>com.taptap</groupId>
   <artifactId>storage-core</artifactId>
   <packaging>jar</packaging>
-  <version>8.2.24-SNAPSHOT</version>
+  <version>3.28.3-SNAPSHOT</version>
   <name>storage core library</name>
   <url>http://maven.apache.org</url>
 
@@ -21,18 +17,17 @@
 
   <developers>
     <developer>
-      <name>LeanCloud Engineer</name>
-      <email>eng@leancloud.rocks</email>
-      <organization>LeanCloud</organization>
-      <organizationUrl>https://leancloud.cn</organizationUrl>
+      <name>TDS Engineer</name>
+      <email>tds-engineering@xd.com</email>
+      <organization>TapTap</organization>
+      <organizationUrl>https://www.taptap.cn</organizationUrl>
     </developer>
   </developers>
 
 
   <scm>
-    <connection>scm:git:git@github.com:leancloud/java-unified-sdk.git</connection>
-    <developerConnection>scm:git:git@github.com:leancloud/java-unified-sdk.git</developerConnection>
-    <url>http://github.com/leancloud/java-unified-sdk/tree/master</url>
+    <connection>scm:git@github.com:taptap/TapSDK-LC-Java.git</connection>
+    <url>https://github.com/taptap/TapSDK-LC-Java/tree/master</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -102,37 +97,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.1.1</version>
-        <configuration>
-          <failOnError>false</failOnError>
-          <additionalparam>-Xdoclint:none</additionalparam>
-          <author>eng@leancloud.rocks</author>
-          <bottom><![CDATA[Copyright © 2020, <a href="https://leancloud.cn">美味书签（北京）信息技术有限公司<a> All rights reserved.]]></bottom>
-          <sourceFileExcludes>
-            <exclude>cn/leancloud/ops/*.java</exclude>
-            <exclude>cn/leancloud/service/*.java</exclude>
-            <exclude>cn/leancloud/codec/*.java</exclude>
-            <exclude>cn/leancloud/upload/*.java</exclude>
-            <exclude>cn/leancloud/utils/*.java</exclude>
-            <exclude>cn/leancloud/annotation/*.java</exclude>
-            <exclude>cn/leancloud/cache/*.java</exclude>
-            <exclude>cn/leancloud/internal/*.java</exclude>
-            <exclude>cn/leancloud/logging/*.java</exclude>
-            <exclude>cn/leancloud/network/*.java</exclude>
-          </sourceFileExcludes>
-        </configuration>
-        <executions>
-          <execution>
-            <id>attach-javadocs</id>
-            <goals>
-              <goal>jar</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>

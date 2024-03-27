@@ -80,9 +80,9 @@ afterEvaluate { project ->
                
                     developers {
                         developer {
-                            id = 'leancloud'
-                            name = 'LeanCloud Engineer'
-                            email = 'eng@leancloud.rocks'
+                            id = 'tds engineer'
+                            name = 'TDS Engineer'
+                            email = 'tds-engineering@xd.com'
                         }
                     }
 
