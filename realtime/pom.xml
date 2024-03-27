@@ -3,7 +3,7 @@
   <groupId>com.taptap</groupId>
   <artifactId>realtime-core</artifactId>
   <packaging>jar</packaging>
-  <version>3.28.3-SNAPSHOT</version>
+  <version>8.2.24-SNAPSHOT</version>
   <name>realtime core library</name>
   <url>http://maven.apache.org</url>
 
@@ -90,7 +90,7 @@
     <dependency>
       <groupId>com.taptap</groupId>
       <artifactId>storage-core</artifactId>
-      <version>3.28.3-SNAPSHOT</version>
+      <version>8.2.24-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>

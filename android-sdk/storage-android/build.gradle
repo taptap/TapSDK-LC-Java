@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
-        versionName "3.28.3-SNAPSHOT"
+        versionName "5.0.0-SNAPSHOT"
         archivesBaseName = "storage-android"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

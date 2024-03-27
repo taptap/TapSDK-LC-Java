@@ -4,7 +4,7 @@
   <groupId>com.taptap</groupId>
   <artifactId>storage-core</artifactId>
   <packaging>jar</packaging>
-  <version>3.28.3-SNAPSHOT</version>
+  <version>8.2.24-SNAPSHOT</version>
   <name>storage core library</name>
   <url>http://maven.apache.org</url>
 
@@ -27,6 +27,7 @@
 
   <scm>
     <connection>scm:git@github.com:taptap/TapSDK-LC-Java.git</connection>
+    <developerConnection>scm:git@github.com:taptap/TapSDK-LC-Java.git</developerConnection>
     <url>https://github.com/taptap/TapSDK-LC-Java/tree/master</url>
     <tag>HEAD</tag>
   </scm>
@@ -97,6 +98,35 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+          <failOnError>false</failOnError>
+          <additionalparam>-Xdoclint:none</additionalparam>
+          <sourceFileExcludes>
+            <exclude>com/tapsdk/lc/ops/*.java</exclude>
+            <exclude>com/tapsdk/lc/service/*.java</exclude>
+            <exclude>com/tapsdk/lc/codec/*.java</exclude>
+            <exclude>com/tapsdk/lc/upload/*.java</exclude>
+            <exclude>com/tapsdk/lc/utils/*.java</exclude>
+            <exclude>com/tapsdk/lc/annotation/*.java</exclude>
+            <exclude>com/tapsdk/lc/cache/*.java</exclude>
+            <exclude>com/tapsdk/lc/internal/*.java</exclude>
+            <exclude>com/tapsdk/lc/logging/*.java</exclude>
+            <exclude>com/tapsdk/lc/network/*.java</exclude>
+          </sourceFileExcludes>
+        </configuration>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>

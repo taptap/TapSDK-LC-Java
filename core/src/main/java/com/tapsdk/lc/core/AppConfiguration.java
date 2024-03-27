@@ -46,7 +46,7 @@ public class AppConfiguration {
   private static JSONParser jsonParser = converterFactory.createJSONParser();
 
   private static final String SDK_VERSION = "8.2.23";
-  private static final String DEFAULT_USER_AGENT = "LeanCloud-Java-SDK/" + SDK_VERSION;
+  private static final String DEFAULT_USER_AGENT = "TapSDK-LC-Java/" + SDK_VERSION;
 
   public static void setNetworkTimeout(int seconds) {
     if (seconds > 0) {
