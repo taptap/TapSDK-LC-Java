@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Window;
 
 import cn.leancloud.LCObject;
-import cn.leancloud.LCParcelableObject;
+import com.tapsdk.lc.LCParcelableObject;
 import cn.leancloud.sample.R;
 
 public class ObjectTransferTargetActivity extends AppCompatActivity {

@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
-        versionName "5.0.0-SNAPSHOT"
+        versionName "3.28.3-SNAPSHOT"
         archivesBaseName = "storage-android"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -81,9 +81,10 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:${rootProject.ext.rxandroidVersion}"
 
     implementation("cn.leancloud:storage-core:${rootProject.ext.sdkVersion}")
-
     testImplementation 'junit:junit:4.12'
     testImplementation "org.mockito:mockito-core:2.+"
+//    api 'com.squareup.okhttp3:okhttp:3.12.1'
+
 
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
