@@ -6,7 +6,8 @@
   <packaging>jar</packaging>
   <version>8.2.24</version>
   <name>lc storage core library</name>
-  <url>https://developer.taptap.cn/docs/sdk</url>
+  <description>TapSDK-LC Storage Core Java SDK</description>
+  <url>https://github.com/taptap/TapSDK-LC-Java</url>
 
   <licenses>
     <license>

@@ -3,9 +3,10 @@
   <groupId>com.taptap</groupId>
   <artifactId>lc-realtime-core</artifactId>
   <packaging>jar</packaging>
-  <version>8.2.24-SNAPSHOT</version>
+  <version>8.2.24</version>
   <name>lc realtime core library</name>
-  <url>https://developer.taptap.cn/docs/sdk</url>
+  <description>TapSDK-LC Realtime Core Java SDK</description>
+  <url>https://github.com/taptap/TapSDK-LC-Java</url>
 
   <licenses>
     <license>
